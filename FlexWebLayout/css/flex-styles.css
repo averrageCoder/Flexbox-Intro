@@ -15,7 +15,7 @@ body {
 }
 
 .outer-col-1 {
-    background: #D7E8D4;
+    background: beige;
     flex: 1;
 }
 
@@ -39,12 +39,14 @@ body {
     flex: 1;
 }
 
-header,
 footer {
-    background: limegreen;
-    height: 15vh;
+    background: black;
+    color: white;
 }
 
+footer a {
+    color: white;
+}
 header,
 footer,
 nav,
@@ -75,4 +77,17 @@ article {
 .mainContainerItem {
     flex: 3 0px;
     order: 0;
+}
+
+.outer-col-1 li {
+    margin-bottom: 15px;
+}
+
+.newsletter ul {
+    padding: 0px 15px;
+}
+
+.newsletter li {
+    text-align: justify;
+    line-height: 30px;
 }
